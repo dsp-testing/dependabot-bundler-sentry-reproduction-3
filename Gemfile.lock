@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/freerange/mocha.git
-  revision: f65a74727497d74787aad8cb3ea0212e76a48acc
+  revision: c4bd4af3ad0150f29fdad1ee4bc4e4409da80913
   specs:
-    mocha (2.1.0)
+    mocha (2.4.5)
       ruby2_keywords (>= 0.0.5)
 
 GIT
@@ -66,8 +66,12 @@ GEM
     loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
+    mini_portile2 (2.8.7)
     minitest (5.20.0)
     mutex_m (0.1.2)
+    nokogiri (1.15.4)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
     psych (5.1.1)
@@ -117,6 +121,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   annotate!
