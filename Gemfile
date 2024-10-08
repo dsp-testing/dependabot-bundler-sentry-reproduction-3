@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Add sentry gems
 gem 'sentry-rails', '~> 5.10'
-gem 'sentry-ruby', '~> 5.10'
+gem 'sentry-ruby', '~> 5.21'
 
 # Add a gem from a git source
 gem 'annotate', github: 'robbevp/annotate_models', branch: 'enhc/support-virtual-columns'
